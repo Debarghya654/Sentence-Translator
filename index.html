@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<link rel="stylesheet" href="style.css" />
+	<title>Translate Sentence</title>
+</head>
+<body>
+	<nav class="header">Translate Sentence</nav>
+	<div class="main">
+		<div class="translation-box">
+			<textarea id="input-text" placeholder="Enter the sentence..."></textarea>
+		</div>
+
+		<div class="controls">
+			<select id="language-select">
+				<option value="minion">Minion</option>
+				<option value="yoda">Yoda</option>
+				<option value="shakespeare">Shakespeare</option>
+			</select>
+			<button id="btn-translate">Translate</button>
+		</div>
+
+		<div id="translated-box">
+			<textarea id="output-text" placeholder="You will see translated text here..." readonly></textarea>
+		</div>
+	</div>
+	<footer class="footer">Thank you for using</footer>
+	<script src="translate.js"></script>
+</body>
+</html>
